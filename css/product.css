@@ -71,6 +71,63 @@ body {
 	width: 300px;
 	background: #bd0606;
   }
+
+/*==================== page  start ==================== */
+
+.pagination {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.pagination:after {
+  content: "";
+  clear: both;
+}
+
+.pagination-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 0px solid transparent;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.pagination-button:hover {
+  color: orange;
+}
+
+.pagination-button.active {
+  background-color: orange;
+  border-color: white;
+  color: black;
+}
+
+.pagination-button:first-of-type {
+  border-radius: 18px 0 0 18px;
+  font-size: 28px;
+  background-color: transparent;
+}
+
+.pagination-button:last-of-type {
+  border-radius: 0 18px 18px 0;
+  font-size: 28px;
+  background-color: transparent;
+}
+.pagination-items {
+  display: flex;
+  width: 100%;
+  height: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
   @media screen and (min-width:  900px){
 	  .A{
 		width: 1400px;
