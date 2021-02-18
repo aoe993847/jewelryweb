@@ -163,4 +163,4 @@
 
 /* This part is just for the demo,
 not actually part of the plugin */
-$('.a').paginate(8);
+$('.list-1').paginate(8);

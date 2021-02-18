@@ -8,17 +8,16 @@ body {
 	/* background-image: url( ' https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Porto_Covo_January_2014-10a.jpg/1920px-Porto_Covo_January_2014-10a.jpg ' ); */
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
-
+	background: #FFED97	;
 }
   nav {
-	margin-top: 20px;
-	padding: 30px;
+	padding: 5px;
 	text-align: center;
 	font-family: Raleway;
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 8px;
   }
   #nav-1 {
-	background: rgba(255, 255, 255, 0.1);;
+	background: rgba(241, 240, 224, 0.5);;
   }
   nav ul {
 	padding: 0;
@@ -55,15 +54,15 @@ body {
 	padding: 6px 0; 
   }
 
-  .A
+  .list
   {
 	position: relative;
 	margin:0px auto;
 	height:3500px;
 	width: 500px;
-	background:rgba(0, 0, 0, 0.1);
+	background:rgb(97, 94, 94, 0.1);
   }
-  .a
+  .list-1
   {
 	position: relative;
 	margin: 50px 10px 10px 35px;
@@ -129,14 +128,14 @@ body {
 }
 
   @media screen and (min-width:  900px){
-	  .A{
+	  .list{
 		width: 1400px;
 		height: 1000px;
 		display: flex;
 		flex-wrap: wrap;
 
 	}
-	  .a {
+	  .list-1 {
 		  width: 300px;
 		  height: 300px;
 		 
