@@ -12,25 +12,25 @@ body {
 	background-size: 100% 100%;
 	background: #FFED97	;
 }
-  nav {
+nav {
 	padding: 5px;
 	text-align: center;
 	font-family: Raleway;
 	box-shadow: 2px 2px 8px;
-  }
-  #nav-1 {
+}
+#nav-1 {
 	background: rgba(241, 240, 224, 0.5);;
-  }
-	
-		nav a{
-			display:block;
-			padding:0 10px;	
-			color:rgb(0, 0, 0);
-			font-size:30px;
-			line-height: 60px;
-			text-decoration:none;			
-		}	
-  .link-1 {
+}
+
+nav a{
+	display:block;
+	padding:0 10px;	
+	color:rgb(0, 0, 0);
+	font-size:30px;
+	line-height: 60px;
+	text-decoration:none;			
+}	
+.link-1 {
 	transition: 0.3s ease;
 	background:  rgba(255, 255, 255, 0.1);
 	color: rgb(0, 0, 0);
@@ -41,13 +41,13 @@ body {
 	padding: 20px 0;
 	margin: 0 20px;
   }
-  .link-1:hover {
+.link-1:hover {
 	border-top: 4px solid rgb(0, 0, 0,0.5);
 	border-bottom: 4px solid rgb(0, 0, 0,0.5);
 	padding: 6px 0; 
-  }
-  .btn {
-	  position: relative;
+}
+.btn {
+	position: relative;
 	display: inline-flex;
 	flex-wrap: wrap;
 	color: rgb(255, 255, 255);
