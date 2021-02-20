@@ -72,16 +72,17 @@ body {
 }
 .btn::after{
 	z-index: -2;
-	filter: blur(30px);
 }
 
   .list
   {
 	position: relative;
 	margin:0px auto;
-	height:3500px;
-	width: 500px;
 	background:rgb(97, 94, 94, 0.1);
+	width: 1400px;
+	height: 1000px;
+	display: flex;
+	flex-wrap: wrap;
   }
   .list-1
   {
@@ -159,13 +160,10 @@ body {
   flex-wrap: wrap;
 }
 
-  @media screen and (min-width:  900px){
+  @media screen and (Max-Width:  900px){
 	  .list{
-		width: 1400px;
-		height: 1000px;
-		display: flex;
-		flex-wrap: wrap;
-
+		height:3000px;
+		width: 500px;
 	}
 	  .list-1 {
 		  width: 300px;
