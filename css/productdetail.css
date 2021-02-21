@@ -1,6 +1,4 @@
-.containerbox{
-    width: 100%;
-}
+
 .picturebox{
     display: flex;
     width: 80%;
@@ -9,10 +7,13 @@
     justify-content: space-around;
     padding-top: 2%;
     padding-bottom: 2%;
+    flex-wrap: wrap;
+    height: auto;
 }
 .word{
     width: 30%;
     font-size: x-large;
+    padding-top: 2%;
 }
 .name{
     font-size: xx-large;
@@ -32,17 +33,33 @@ li{
     width: 100%;
     background-color: #FFFF99;
 }
+.goodsbox{
+    width: 100%;
+    z-index: 0;
+    margin: 10% auto;
+}
 .goodslist{
     display: flex;
+    width: 100%;
+    margin: 10% auto;
+    padding-left:3%;
+    padding-right: 3%;
 }
-.goods{
-    display: flex;
-    width: 20%;
-    margin: auto;
-    justify-content: space-around;
+.goods p{
+    margin: 5% 0;
+    text-align: center;
+}
+
+
+.imgbox{
+    width: 80%;
 }
 .goodsimg{
-    width: 80%;
+   width: 300px;
+   height: 300px;
+    margin: 0 auto;
+    
+    object-fit: cover;
 }
 
 /* Slider */
@@ -163,4 +180,56 @@ li{
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+* {margin: 0; padding: 0;}
+body {
+    width: 100%;
+    height: auto;
+    overflow: hidden scroll;
+}
+.slick-dots li button::before {
+    font-size: 70px;
+}
+.slick-arrow{
+    display: none;
+}
+
+@media  (max-width: 1412px)
+{
+    .picturebox{
+        width: 100%;
+
+    }
+    .word{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (max-width:650px )
+{
+    .picture{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width:450px )
+{
+    .picture{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:350px )
+{
+    .picture{
+        width: 200px;
+        height: 200px;
+    }
+    .word{
+        font-size: medium;
+    }
+    .name{
+        font-size: x-large;
+    }
 }
