@@ -13,8 +13,8 @@ body{
     margin: 3% auto;
 }
 img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 	
 	
 }
@@ -34,7 +34,7 @@ nav a{
 	line-height: 60px;
 	text-decoration:none;			
 }	
-.link-1 {
+.nav {
 	transition: 0.3s ease;
 	background:  rgba(255, 255, 255, 0.1);
 	color: rgb(0, 0, 0);
@@ -45,7 +45,7 @@ nav a{
 	padding: 20px 0;
 	margin: 0 20px;
   }
-.link-1:hover {
+.nav:hover {
 	border-top: 4px solid rgb(0, 0, 0,0.5);
 	border-bottom: 4px solid rgb(0, 0, 0,0.5);
 	padding: 6px 0; 
@@ -83,8 +83,8 @@ nav a{
 	position: relative;
 	margin:0px auto;
 	background:rgb(97, 94, 94, 0.1);
-	width: 1400px;
-	height: 1000px;
+	width: 80%;
+	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
   }
@@ -92,8 +92,8 @@ nav a{
   {
 	position: relative;
 	margin: 50px 10px 10px 35px;
-	height: 300px;
-	width: 300px;
+	height: 30%;
+	width: 21%;
 	border-radius:10px;
 	border: 1px solid black;
 	overflow: hidden;
@@ -107,7 +107,18 @@ nav a{
 	}
 	
 
-
+	.text
+	{
+		animation-timing-function: ease-in-out;
+		position: absolute;
+		color:rgb(0, 0, 0);
+		font-weight:bold;
+		font-size: 30px;
+		top: 225px;
+		height: 20%;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.1);
+	}
 /*==================== page  start ==================== */
 
 .pagination {
@@ -164,14 +175,43 @@ nav a{
   flex-wrap: wrap;
 }
 
-  @media screen and (Max-Width:  900px){
-	  .list{
-		height:3000px;
-		width: 500px;
-	}
-	  .list-1 {
-		  width: 300px;
-		  height: 300px;
-		 
-	  }
+ 
+  @media screen and (Max-Width:  1600px){
+	.list{
+	  height:150%;
+	  width: 75%;	 
+	  display: flex;
+	flex-wrap: wrap; 
   }
+	.list-1 {
+		height: 28.5%;
+	width: 25%;
+	}
+}
+@media screen and (Max-Width:  900px){
+	.list{
+	  position: relative;
+	  height:150%;
+	  width: 75%;	 
+	  display: flex;
+	  flex-wrap: wrap; 
+
+  }
+	.list-1 {
+		height: 30%;
+	width: 40%;
+	}
+}
+@media screen and (Max-Width:  500px){
+	.list{
+	  position: relative;
+	  height:2000px;
+	  width: 100%;
+	  display: flex;
+	  flex-wrap: wrap; 
+  }
+	.list-1 {
+	  width: 50%;
+	  height: 30%;
+	}
+}
