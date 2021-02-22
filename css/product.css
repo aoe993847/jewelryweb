@@ -1,26 +1,30 @@
-
+body{
+    background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
+    background-size: 100% 200%;
+}
+.nav{
+    
+    width: 100%;
+}
+.nav p{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    margin: 3% auto;
+}
 img{
     width: 300px;
     height: 300px;
 	
 	
 }
-body {
-	margin: 0px;
-	/* background-image: url( ' https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Porto_Covo_January_2014-10a.jpg/1920px-Porto_Covo_January_2014-10a.jpg ' ); */
-	background-repeat:no-repeat;
-	background-size: 100% 100%;
-	background: #FFED97	;
-}
+
 nav {
 	padding: 5px;
 	text-align: center;
 	font-family: Raleway;
-	box-shadow: 2px 2px 8px;
 }
-#nav-1 {
-	background: rgba(241, 240, 224, 0.5);;
-}
+
 
 nav a{
 	display:block;

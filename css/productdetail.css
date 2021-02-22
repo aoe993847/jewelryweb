@@ -1,4 +1,17 @@
-
+body{
+    background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
+    background-size: 100% 200%;
+}
+.nav{
+    
+    width: 100%;
+}
+.nav p{
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    margin: 3% auto;
+}
 .picturebox{
     display: flex;
     width: 80%;
