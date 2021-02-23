@@ -4,7 +4,7 @@ body{
 }
 .nav{
     
-    width: 95%;
+    width: 100%;
 }
 .nav p{
     width: 100%;
@@ -20,7 +20,6 @@ img{
 }
 
 nav {
-	padding: 5px;
 	text-align: center;
 	font-family: Raleway;
 }
@@ -36,15 +35,7 @@ nav a{
 	text-decoration:none;			
 }	
 .nav {
-	transition: 0.3s ease;
-	background:  rgba(255, 255, 255, 0.1);
-	color: rgb(0, 0, 0);
 	font-size: 30px;
-	text-decoration: none;
-	border-top: 4px solid rgba(255, 255, 255, 0.1);
-	border-bottom: 4px solid rgba(255, 255, 255, 0.1);
-	padding: 20px 0;
-	margin: 0 20px;
   }
 .nav:hover {
 	border-top: 4px solid rgb(0, 0, 0,0.5);
@@ -79,22 +70,23 @@ nav a{
 	z-index: -2;
 }
 
-  .list
+ .list
   {
 	position: relative;
 	margin:0px auto;
 	background:rgb(97, 94, 94, 0.1);
-	width: 80%;
-	height: 100%;
+	width: 1400px;
+	height: 1000px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
   }
   .list-1
   {
 	position: relative;
 	margin: 50px 10px 10px 35px;
-	height: 30%;
-	width: 21%;
+	height: 400px;
+	width: 300px;
 	border-radius:10px;
 	text-align:center;
 	overflow: hidden;
