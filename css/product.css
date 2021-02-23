@@ -195,7 +195,7 @@ nav a{
 	width: 40%;
 	}
 }
-@media screen and (Max-Width:  500px) and (min-width: 0px)
+@media screen and (Max-Width:  480px) and (min-width: 0px)
 {
 	
 	.list{
