@@ -1,16 +1,20 @@
 body{
-    background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
-    background-size: 100% 200%;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 .nav{
-    
+    background-color: blanchedalmond;
     width: 100%;
 }
 .nav p{
     width: 100%;
     font-size: xx-large;
     text-align: center;
-    margin: 3% auto;
+
 }
 nav p a{
 	color: black;
@@ -24,8 +28,9 @@ img{
 }
 ul{
 	width: 100%;
-
+	background-color: rgb(138, 72, 19);
 	padding: 0;
+	margin: 0;
 }
 
 nav {
@@ -37,8 +42,7 @@ nav {
 nav a{
 	display:block;
 	width: 100%;
-	padding:0 10px;	
-	color:rgb(0, 0, 0);
+	color:white;
 	font-size:30px;
 	line-height: 60px;
 	text-decoration:none;			
@@ -46,13 +50,19 @@ nav a{
 .nav {
 	font-size: 30px;
   }
+.boxs{
+	width: 100%;
+	height: auto;
+	background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
+	margin: 0;
+}
 .btn {
 	position: relative;
 	display: inline-flex;
 	flex-wrap: wrap;
 	color: rgb(255, 255, 255);
 	font-size: 30px;
-
+	z-index: 1;
 }
 
 .btn::before, .btn::after{
@@ -60,7 +70,7 @@ nav a{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #ff0000;
+	background: rgb(245, 197, 93);
 	transform-origin: right;
 	transition: transform 600ms ease;
 	z-index: -1;
@@ -78,7 +88,6 @@ nav a{
   {
 	position: relative;
 	margin:0px auto;
-	background:rgb(97, 94, 94, 0.1);
 	width: 1400px;
 	height: 1000px;
 	display: flex;
@@ -114,12 +123,20 @@ nav a{
 		width: 100%;
 		background: rgba(0, 0, 0, 0.1);
 	}
+	.footer{
+		
+		width: 100%;
+		height: auto;
+		text-align: center;
+		background-color: rgb(235, 231, 231);
+		padding: 1%;
+	  }
 /*==================== page  start ==================== */
 
 .pagination {
   display: block;
   width: 100%;
-  margin: 1em auto;
+  margin: 0 auto;
   text-align: center;
   z-index: 2;
 }

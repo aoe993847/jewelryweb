@@ -1,12 +1,20 @@
  
-  .b2
-  {
-	position: relative;
-	margin: 3% auto;
+.sort{
+  position: relative;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 3%;
+}
+  .b2
+  {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
 
   }
   .circle 

@@ -1,10 +1,12 @@
-body{
+.containerbox{
     background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
-    background-size: 100% 200%;
+    height: 100%;
+    padding-bottom: 2%;
 }
 .nav{
     
     width: 100%;
+    background-color: blanchedalmond;
     
 }
 .nav p{
@@ -40,7 +42,7 @@ nav p a{
 .name{
     font-size: xx-large;
 }
-ul{
+.word ul{
     list-style: none;
     padding: 0;
 }
@@ -48,7 +50,7 @@ ul{
     font-size: large;
     line-height: 1.5;
 }
-li{
+.word ul li{
     font-size: large;
 }
 .btn{
@@ -58,7 +60,6 @@ li{
 .goodsbox{
     width: 100%;
     z-index: 0;
-    margin: 10% auto;
 }
 .goodslist{
     display: flex;
@@ -66,6 +67,7 @@ li{
     margin: 10% auto;
     padding-left:3%;
     padding-right: 3%;
+    
 }
 .goods p{
     margin: 5% 0;
@@ -82,7 +84,18 @@ li{
     margin: 0 auto;
     
     object-fit: cover;
+    
 }
+
+.footer{
+		
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+    padding: 1%;
+  }
+
 
 /* Slider */
 .slick-slider

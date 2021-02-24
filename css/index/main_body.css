@@ -1,15 +1,13 @@
 * {
     box-sizing: border-box;
   }
-  body{
-    
-  }
+
   .conbox{
     background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
     background-size: 100% 200%;
   }
   .nav{
-    
+    background-color: blanchedalmond;
     width: 100%;
 }
 .nav p{
@@ -81,7 +79,7 @@
   line-height: 1.5;
   padding: 15px 3%;
 }
-footer{
+.footer{
   width: 100%;
   text-align: center;
   background-color: rgb(235, 231, 231);
@@ -182,7 +180,7 @@ footer{
       min-height:500px;    
     }
   }
-*{margin: 0; padding: 0;}
+
   body{
     width: 100%;
     height: auto;
