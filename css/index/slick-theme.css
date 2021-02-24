@@ -33,6 +33,7 @@
     border: none;
     outline: none;
     background: transparent;
+
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -59,7 +60,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 15px;
+    font-size: 30px;
     line-height: 1;
 
     opacity: .75;
@@ -67,6 +68,9 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 7px;
+    left: 8px;
 }
 
 .slick-prev
@@ -111,7 +115,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -45px;
     display: block;
     width: 100%;
     padding: 0;

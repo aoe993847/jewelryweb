@@ -5,6 +5,7 @@ body{
 .nav{
     
     width: 100%;
+    
 }
 .nav p{
     width: 100%;
@@ -12,6 +13,14 @@ body{
     text-align: center;
     margin: 3% auto;
 }
+nav p a{
+    color: black;
+    text-decoration: none;
+  }
+  nav p a:hover{
+    color: black;
+    text-decoration: none;
+  }
 .picturebox{
     display: flex;
     width: 80%;
