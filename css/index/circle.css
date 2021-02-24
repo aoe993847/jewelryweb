@@ -82,7 +82,7 @@
     flex-wrap: wrap; 
     }
   }
-  @media screen and (Max-Width:  1020px){
+  @media screen and (Max-Width:  1430px){
     .circle{
       margin: 3% 0;
     }
