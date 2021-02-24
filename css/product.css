@@ -46,7 +46,6 @@ nav a{
 	display:block;
 	width: 100%;
 	color:white;
-	line-height: 60px;
 	text-decoration:none;			
 }	
 
@@ -68,8 +67,8 @@ nav a{
 .btn::before, .btn::after{
 	content: '';
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 80%;
 	background: rgb(245, 197, 93);
 	transform-origin: right;
 	transition: transform 600ms ease;
@@ -83,7 +82,10 @@ nav a{
 .btn::after{
 	z-index: -2;
 }
-
+.btn a{
+	text-decoration: none;
+	color: white;
+}
  .list
   {
 	position: relative;
@@ -109,8 +111,13 @@ nav a{
 	box-shadow:	10px 10px 5px rgba(0,0,0,0.8);
 	transform : scale(1.1);
 	}
-  
-
+	.list-1 a{
+		text-decoration: none;
+		color: black;
+	}
+	.list-1 p{
+		margin-top: 3%;
+	}
 	.text
 	{
 		animation-timing-function: ease-in-out;
