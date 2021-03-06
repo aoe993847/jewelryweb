@@ -42,11 +42,7 @@
     height: 100%;
     font-size:xx-large;
 }
-.Q p{
-    position: relative;
-    left: 35%;
-    width: 30%;
-}
+
 .A{
     width: 100%;
     height: 100%; 
@@ -56,4 +52,161 @@
     position: relative;
     left: 35%;
     width: 30%;
+}
+.z{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z1{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z2{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z3{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z4{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z5{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z6{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z7{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.z8{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    cursor:pointer;
+}
+.x1 p{
+    cursor:pointer;
+}
+.x1 {
+    display:none
+}
+.y1 {
+    display:none
+}
+.x2 p{
+    cursor:pointer;
+}
+.x2 {
+    display:none
+}
+.y2 {
+    display:none
+}
+.x3 p{
+    cursor:pointer;
+}
+.x3 {
+    display:none
+}
+.y3 {
+    display:none
+}
+.x4 p{
+    cursor:pointer;
+}
+.x4 {
+    display:none
+}
+.y4 {
+    display:none
+}
+.x5 p{
+    cursor:pointer;
+}
+.x5 {
+    display:none
+}
+.y5 {
+    display:none
+}
+.x6 p{
+    cursor:pointer;
+}
+.x6 {
+    display:none
+}
+.y6 {
+    display:none
+}
+.x7 p{
+    cursor:pointer;
+}
+.x7 {
+    display:none
+}
+.y7 {
+    display:none
+}
+.x8 p{
+    cursor:pointer;
+}
+.x8 {
+    display:none
+}
+.y8 {
+    display:none
+}
+.x9 p{
+    cursor:pointer;
+}
+.x9 {
+    display:none
+}
+.y9 {
+    display:none
+}
+.fas{
+    display: none;
+
+}
+.x11 p{
+    cursor:pointer;
+}
+.x11 {
+    display:none
+}
+.y11 {
+    display:none
+}
+.x12 p{
+    cursor:pointer;
+}
+.x12 {
+    display:none
+}
+.y12 {
+    display:none
 }
