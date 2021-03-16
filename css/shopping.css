@@ -138,7 +138,7 @@ a {
 }
 
 .product header:hover img {
-	opacity: .7;
+	opacity: .5;
 }
 
 .product header:hover h3 {
@@ -154,10 +154,9 @@ a {
 	margin: 0;
 	padding: 0 30px;
 	position: absolute;
-	bottom: -50px;
+	bottom: -500px;
 	right: 0;
 	left: 0;
-
 	-webkit-transition: bottom .2s linear;
 	-moz-transition: bottom .2s linear;
 	-ms-transition: bottom .2s linear;
@@ -275,17 +274,6 @@ a {
 	text-align: center;
 }
 
-#site-footer h2 {
-	font-size: 24px;
-	font-weight: 300;
-	margin: 10px 0 0 0;
-}
-
-#site-footer h3 {
-	font-size: 19px;
-	font-weight: 300;
-	margin: 15px 0;
-}
 
 .right{
 	display: flex;
@@ -356,3 +344,49 @@ a {
 .added {
 	margin: 0 -50px 0 0 !important;
 }
+
+
+@media screen and (Max-Width:  1220px){
+	#site-header, #site-footer {
+		background: rgb(0, 0, 0);
+		height:5% ;
+		width: 100%;
+	}
+	#site-header h2{
+		position: relative;
+		background: blanchedalmond;
+		border: 1px solid #999;
+		border-style: none none none none;
+		cursor: pointer;
+		color: rgb(0, 0, 0);
+		font-size: 30px;
+		font-weight: 3000;
+		padding: 16px 0;
+		width: 50%;
+		text-align: center;
+		left: 60%;
+	}
+}
+
+@media screen and (Max-Width:  480px) and (min-width: 0px)
+{
+	.site-header, .site-footer {
+		background: blanchedalmond;
+		height:10% ;
+		width: 100%;
+	}
+	
+		
+	
+	
+}
+@media screen and (Max-Width:  350px) and (min-width: 0px)
+{
+	#container1{
+		height:10%;
+		width: 100%;
+	}
+	
+
+	}
+	
