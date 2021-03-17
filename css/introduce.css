@@ -15,7 +15,6 @@
     text-decoration: none;
   }
 .footer{
-		
     width: 100%;
     height: auto;
     text-align: center;
@@ -23,65 +22,40 @@
     padding: 1%;
   }
 .content{
+    position: relative;
     background-image: url(/img/pexels-karolina-grabowska-4039781.jpg);
     height: 100%;
     padding-bottom: 2%;
 }
-img{
-    margin: 0% auto;
-    max-width:100%;
-    display: block;
-    visibility:hidden;
-}
 .a{
-    position: relative;
+    position:absolute;
     background-image:url(/img/1.jpg);
     background-size:cover;
-    opacity: 0.7;
+    opacity: 0.4;
     background-position:center;
-    font-size:xx-large;
     width: 100%;
-    height: 10%;
+    height: 300px;
 }
-.a p{
+.b{
+    width: 100%;
+    height: 300px;
+}
+.b p{
     position:relative;
-    top:64%;
+    text-align: center;
     color: black;
-    left:74%;
-    transform: translate(-26%, 300%); 
     z-index:1000;
-    opacity: 0.9;
+    font-size: xx-large;
 }
 .word{
     position: relative;
     margin: auto;
     font-size: 200%;
-    width: 70%;
-    text-align: center;
+    width: 65%;
     word-break:normal; 
 }
-@media screen and (max-width: 2300px){
-    .a p{
-        transform: translate(-27.5%, 300%);
-    }
-}
-@media screen and (max-width: 1500px){
-    .a p{
-        transform: translate(-28.5%, 300%);
-    }
-}
-@media screen and (max-width: 1000px){
-    .a p{
-        transform: translate(-32%, 300%);
-    }
-}
-@media screen and (max-width: 500px){
-    .a p{
-        transform: translate(-43%, 300%);
-    }
-}
-@media screen and (max-width: 300px){
-    .a p{
-        transform: translate(-46%, 300%);
+@media (max-width:600px ){
+    .word{
+        font-size: 150%;
     }
 }
