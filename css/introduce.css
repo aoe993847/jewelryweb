@@ -51,7 +51,11 @@
     position: relative;
     margin: auto;
     font-size: 200%;
-    width: 70%;
-    text-align: center;
+    width: 65%;
     word-break:normal; 
+}
+@media (max-width:600px ){
+    .word{
+        font-size: 150%;
+    }
 }
