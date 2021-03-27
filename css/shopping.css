@@ -329,10 +329,11 @@ a {
 		width: 140%;
 		height: 225px;
 		right: 20%;
+		
 
 	
 }
-
+}
 @media screen and (Max-Width:  480px) and (min-width: 380px)
 {
 	.container1{
@@ -379,7 +380,7 @@ a {
 	position: absolute;
 }
 }
-@media screen and (Max-Width:  375px) and (min-width: 330px)
+@media screen and (Max-Width:  380px) and (min-width: 330px)
 {
 	.container1{
 		display: inline-flex;
@@ -420,7 +421,7 @@ a {
 		height:10% ;
 		width: 100%;
 		text-align: center;
-
+		
 		
 	}
 	#site-header h1{
@@ -436,7 +437,6 @@ a {
 
 	}
 	.right a{
-		width: 175px;
+		width: 250px;
 	}
-}
 }
