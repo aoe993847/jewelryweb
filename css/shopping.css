@@ -311,13 +311,10 @@ a {
 }
 
 
-@media screen and (Max-Width:  1220px){
+@media screen and (Max-Width:  1220px)
+{
 	
-	#site-header, #site-footer {
-		background: rgb(207, 130, 15);
-		width: 100%;
-
-	}
+	
 	#site-header h2{		
 		width: 50%;
 		text-align: center;
@@ -328,14 +325,19 @@ a {
 	.product {
 		width: 140%;
 		height: 225px;
-		right: 20%;
+		right: 10%;
 		
-
+}
+}
+@media screen and (Max-Width:  820px){
 	
+
+	.right a{
+		width: 50%;
+	}
+
 }
-}
-@media screen and (Max-Width:  480px) and (min-width: 380px)
-{
+@media screen and (Max-Width:  480px) and (min-width: 380px){
 	.container1{
 		display: inline-flex;
 		flex-direction: column;
@@ -349,7 +351,7 @@ a {
 		
 	}
 	#site-header h1{
-		background-color: #3598dc;
+		background-color: blanchedalmond;
 		width: 100%;
 		height: 20%;
 }
@@ -374,7 +376,7 @@ a {
 			
 }
 .product footer .price {
-	background: tomato;
+	background: blanchedalmond;
 	bottom: 40%;
 	left: 76%;
 	position: absolute;
@@ -395,7 +397,7 @@ a {
 		
 	}
 	#site-header h1{
-		background-color: #3598dc;
+		background-color: blanchedalmond;
 		width: 100%;
 		height: 20%;
 }
@@ -425,10 +427,10 @@ a {
 		
 	}
 	#site-header h1{
-		background-color: #3598dc;
+		background-color: blanchedalmond;
 		width: 100%;
 		height: 20%;
-}
+	}	
 	#site-header h2{
 		background: blanchedalmond;
 		width: 100%;
