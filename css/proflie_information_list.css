@@ -88,7 +88,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    background: #ffffff;
+    background-color: rgb(235, 231, 231);
   }
   
   #mainbox {
