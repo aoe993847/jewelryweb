@@ -25,10 +25,12 @@ p{
   display: flex;
 }
 .footer{
+position: relative;
 width: 100%;
 text-align: center;
 background-color: rgb(235, 231, 231);
 padding: 1%;
+bottom: 0;
 }
 /* media query */
 
@@ -279,4 +281,12 @@ fieldset {
 {
   background-color: blanchedalmond;
   height: 10px;
+}
+.wrapper
+{
+  min-height: 100%;
+}
+body
+{
+  height: 100%;
 }
