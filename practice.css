@@ -1,0 +1,10 @@
+.nav{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+.nav p 
+{
+    text-align: center;
+    font-size: xx-large;
+    margin: 3% auto;
+}
