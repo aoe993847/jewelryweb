@@ -18,6 +18,7 @@ text-decoration: none;
 p{
   margin: 20px;
 }
+
 .container {
   max-width: 800px;
   margin: 2% ;
@@ -32,6 +33,7 @@ padding: 1%;
 bottom: 0;
 }
 /* media query */
+
 body{
   width: 100%;
   overflow: hidden scroll;
@@ -64,7 +66,6 @@ body{
   background:blanchedalmond;
   max-width: 900px;
   width: 100%;
-  height: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -165,16 +166,13 @@ fieldset {
         font-weight: bold;
 }
 #msform {
-  position: relative;
-  width: 500px;
-  height: 900px;
+  max-width: 500px;
+  max-height: 900px;
   margin: 50px auto;
   text-align: center;
-  display: block;
+  position: relative;
 }
 #msform fieldset {
-  display: block;
-  position: relative;
   background: white;
   border: 0 none;
   border-radius: 3px;
@@ -184,6 +182,7 @@ fieldset {
   width: 80%;
   margin: 0 0;
   /*stacking fieldsets above each other*/
+  position: relative;
 }
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
@@ -191,13 +190,11 @@ fieldset {
 }
 /*inputs*/
 #msform input, #msform textarea {
-  position: relative;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
   margin-bottom: 10px;
   width: 100%;
-  height: 50px;
   box-sizing: border-box;
   font-family: montserrat;
   color: #2C3E50;
@@ -220,14 +217,16 @@ fieldset {
 }
 /*headings*/
 .fs-title {
-  position: relative;
-  width: 50px;
-  height: 50px;
   font-size: 15px;
-  text-align: center;
   text-transform: uppercase;
   color: #2C3E50;
   margin-bottom: 10px;
+}
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
 }
 /*progressbar*/
 #progressbar {
@@ -278,8 +277,16 @@ fieldset {
   background: #27AE60;
   color: white;
 }
-.wrapper
+.abc
 {
   background-color: blanchedalmond;
-  background-size: 100% 200%;
+  height: 10px;
+}
+.wrapper
+{
+  min-height: 100%;
+}
+body
+{
+  height: 100%;
 }
