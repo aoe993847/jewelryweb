@@ -1,13 +1,16 @@
 body{
 	margin: 0;
 }
+
 a{
 	text-decoration: none;
 	color: black;
 }
 .nav{
+    
     width: 100%;
     background-color: blanchedalmond;
+    
 }
 .nav p{
     width: 100%;
@@ -32,10 +35,13 @@ ul{
 	padding: 0;
 	margin: 0;
 }
+
 nav {
 	text-align: center;
 	font-family: Raleway;
 }
+
+
 nav a{
 	color:white;
 	text-decoration:none;			
